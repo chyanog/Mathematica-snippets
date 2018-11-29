@@ -1,3 +1,4 @@
+(* ::Package:: *)
 
 Clear[palindromeNumber];
 

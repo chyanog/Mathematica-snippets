@@ -1,5 +1,7 @@
+(* ::Package:: *)
 
 ClearAll[primes];
+
 primes[n_Integer?Positive] :=
   Module[{p = Range[1, n, 2]},
    p[[1]] = 2;
